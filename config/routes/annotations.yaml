@@ -1,0 +1,11 @@
+web_pub:
+    resource: ../../src/Presentation/Web/Pub/Controller/
+    type: annotation
+web_backoffice:
+    resource: ../../src/Presentation/Web/Backoffice/Controller/
+    type: annotation
+    prefix: /admin
+api_rest:
+    resource: ../../src/Presentation/Api/Rest/Controller/
+    type: annotation
+    prefix: /api

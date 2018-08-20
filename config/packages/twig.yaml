@@ -1,0 +1,6 @@
+twig:
+    paths:
+        '%kernel.project_dir%/src/Presentation/Web/Backoffice/Twig': BackOffice
+        '%kernel.project_dir%/src/Presentation/Web/Pub/Twig': Pub
+    debug: '%kernel.debug%'
+    strict_variables: '%kernel.debug%'
